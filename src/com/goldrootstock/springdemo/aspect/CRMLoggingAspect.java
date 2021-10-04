@@ -37,7 +37,7 @@ public class CRMLoggingAspect {
 		
 		// display method we are calling
 		String theMethod = joinPoint.getSignature().toShortString();
-		myLogger.info("======> in @Before: calling method: " + theMethod);
+		myLogger.info("=======> in @Before: calling method: " + theMethod);
 		
 		// display the arguments to the method
 		
